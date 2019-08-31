@@ -1,0 +1,45 @@
+/* css goes here */
+body {
+  text-align: center;
+  background-color: rgb(246, 234, 234);
+}
+
+canvas {
+  background-color: rgb(148, 193, 30);
+  margin: 2% auto 0 auto;
+  border-top: 30px solid rgb(75, 72, 83);
+  border-bottom: 30px solid rgb(75, 72, 83);
+  border-left: 45px solid rgb(75, 72, 83);
+  border-right: 45px solid rgb(75, 72, 83);
+  border-radius: 8px;
+  border-bottom-right-radius: 40px;;
+}
+
+p {
+  font-family: arial;
+  font-size: 16px;
+  color: rgb(71, 63, 112);
+}
+
+.controllerBox {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(246, 234, 234);
+  margin: 0 auto;
+}
+
+.pad {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 130px;
+  height: 130px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  width: 130px;
+  height: 130px;
+}
