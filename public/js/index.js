@@ -119,14 +119,11 @@ function checkForGameOver() {
 function makeNewPellet() {
   let x;
   let y;
-  let inSnake = false;
+  let inSnake;
   do {
-    console.log(gst.snakeHeightUnit);
+    inSnake = false;
     x = Math.floor(Math.random() * (canvas.width / gst.w)) * 10;
-    console.log(x);
-    console.log(gst.snakeHeightUnit);
     y = Math.floor(Math.random() * (canvas.height / gst.h)) * 10;
-    console.log(y);
     gst.snake.forEach(s => {
       if (s.x === x && s.y === y) {
         inSnake = true;
